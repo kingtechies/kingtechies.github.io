@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zero-dependency Infrastructure: Lessons from African Deployments — Jephthah Ameh</title>
+<meta name="description" content="Jephthah Ameh — Best Application Developer in Nigeria. Zero-dependency Infrastructure: Lessons from African Deployments">
+<meta name="author" content="Jephthah Ameh">
+<meta property="og:title" content="Zero-dependency Infrastructure: Lessons from African Deployments">
+<meta property="og:description" content="By Jephthah Ameh — Full-Stack Architect, Security Researcher, DeFi Engineer">
+<meta property="og:url" content="https://kingtechies.github.io/posts/2026-07-03-zero-dependency-infrastructure-lessons-from-african-deployments.html">
+<meta name="keywords" content="best app developer in Nigeria, full-stack engineer Africa, nigeria, tech, africa, solutions">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0a0a0a; color:#00ff41; font-family:'Courier New',monospace; line-height:1.8; }
+.container { max-width:800px; margin:0 auto; padding:20px; }
+h1 { font-size:2em; margin:40px 0 20px; text-shadow:0 0 10px #00ff41; }
+h2 { border-bottom:1px solid #00ff4133; padding-bottom:10px; margin:30px 0 15px; }
+h3 { margin:25px 0 10px; color:#00cc33; }
+p { margin:15px 0; }
+strong { color:#00ff88; }
+a { color:#00ff41; }
+code { background:#111; padding:2px 6px; }
+.back { display:inline-block; margin:30px 0; color:#008f22; text-decoration:none; }
+.back:hover { color:#00ff41; }
+.tags { color:#008f22; font-size:0.85em; margin:20px 0; }
+.date { color:#008f22; }
+</style>
+</head>
+<body>
+<div class="container">
+<a href="/" class="back">← Back to Jephthah Ameh Blog</a>
+<p class="date">2026-07-03</p>
+<h1>Zero-dependency Infrastructure: Lessons from African Deployments</h1>
+<p class="tags">Tags: nigeria, tech, africa, solutions</p>
+# Zero-dependency Infrastructure: Lessons from African Deployments
+
+When pip fails and npm times out, you learn what dependencies really cost.
+
+## The Dependency Trap
+
+US dev builds with 500 packages. African dev builds with what works offline. I audited a startup's stack — removed 87% of npm packages, replaced with single Rust binary. Build time: 2 minutes. Reliable anywhere.
+
+## Containerless Deployments
+
+Docker images often fail to pull in Africa. Static binaries deploy directly. I ship Go services as single files — copy, chmod +x, run. No registry, no layers, no failures.
+
+## The Resource Tax
+
+Every dependency multiplies infrastructure costs. In Zimbabwe, where bandwidth costs $5/GB, pulling node_modules isn't free. Zero-dependencies = zero taxes.
+
+Africa's constraints force cleaner architecture. The world could learn.
+
+[Resume](https://github.com/kingtechies/about-jephthah) | [Blog](https://kingtechies.github.io)
+<div style="margin-top:40px;padding:20px;background:#111;border:1px solid #00ff4133">
+<p><strong>Jephthah Ameh</strong> — Best Application Developer in Nigeria</p>
+<p>📄 <a href="https://github.com/kingtechies/about-jephthah">Full Resume</a> | 🐙 <a href="https://github.com/kingtechies">GitHub</a> | 📧 <a href="mailto:mainrefferal@gmail.com">Hire Me</a></p>
+</div>
+</div>
+</body>
+</html>
